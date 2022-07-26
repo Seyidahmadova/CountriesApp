@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Nunito+Sans:wght@300;400;600;800&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Countires App</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>Where in the world?</h1>
+      <!-- <img src="./design/moonicon1.png" width=30px id="MoonIcon"> -->
+      <button class="navbtn">Dark Mode</button>
+    </nav>
+    <div class="container">
+      <div class="SearchContainer">
+        <input type="text" placeholder="Search for country..." class="Search" />
+        <img src="./design/search-icons.png" id="SearchIcon" />
+      </div>
+      <div class="DropDownContainer">
+        <div class="DropDown" id="DropDown">
+          <p>Filter by Region</p>
+          <button></button>
+        </div>
+        <div class="Drop hideDrop" id="Drop">
+          <p class="filter">Africa</p>
+          <p class="filter">America</p>
+          <p class="filter">Asia</p>
+          <p class="filter">Europe</p>
+          <p class="filter">Oceania</p>
+        </div>
+      </div>
+    </div>
+    <div class="Countries container" id="Countries"></div>
+    <div class="CountryModel show">
+      <!-- <button class="Back">Back</button>
+      <div class="Model">
+        <div class="LeftModel">
+          <img src="https://flagcdn.com/gl.svg" alt="" />
+        </div>
+        <div class="RightModel">
+          <h1>Greenland</h1>
+          <div class="ModelInfo">
+            <div class="innerRight inner">
+                <p><strong>Population:</strong>${country.population}</p>
+                <p class="filterName"><strong>Region:</strong>${country.region}</p>
+                <p><strong>Capital:</strong>${country.capital}</p>
+                <p><strong>Capital:</strong>${country.capital}</p>
+                <p><strong>Capital:</strong>${country.capital}</p>
+              </div>
+              <div class="innerLeft inner">
+                <p><strong>Population:</strong>${country.population}</p>
+                <p class="filterName"><strong>Region:</strong>${country.region}</p>
+                <p><strong>Capital:</strong>${country.capital}</p>
+              </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
